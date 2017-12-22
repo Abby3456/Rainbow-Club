@@ -20,9 +20,9 @@ public class SpriteChange : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (mouseOverIsTrue == true) {
-			Debug.Log ("Over Button");
-		}
+//		if (mouseOverIsTrue == true) {
+//			Debug.Log ("Over Button");
+//		}
 
 //		if (Input.GetKey (KeyCode.Space)) {
 //			newUpdate = true;
