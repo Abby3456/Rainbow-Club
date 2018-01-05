@@ -1,14 +1,62 @@
 -> Intro
 
 === Intro
-~ temp timeIsKnown = 0
+Select File
+    *Seth_Russell_Khalil
+     --->Seth
+    *Thanh_Phan
+    --->Thanh
+    *Kaptain_Irving
+    --->Kaptain
+    *Veronica_Rose
+    --->Veronica
+    *Umeko_Yukimura
+    --->Umeko
 
->> File Name: Seth Russell-Khalil
-It's a cold September day. Wind whistles at against the window and silver light glitters through the cracks in the blinds. Seth can hear car horns blaring and dogs barking on the singing city streets, the train screaming in the distance.
-    *Check Time
-        7:45 AM
-        ~ timeIsKnown++
-    *Get Up
-        -Begrudgingly. Seth unfurls from his cozy cocoon of duvets and pillows and warm dog and saunters onto the frigid, hardwood floors of his bedroom. A shiver runs through his lower back as he steps foreward.
-    
 -> END
+
+=== Seth
+= Overachiever
+~ temp timeIsKnown = 0
+>> File.Name: Seth_Russell_Khalil
+    >> Codename: Red_Iron
+    *Proceed
+    *Return
+    --->Intro
+-> END
+
+=== Thanh
+= TroubleMaker
+>> File.Name: Thanh_Phan
+    >> Codename: Sonus
+    *Proceed
+    *Return
+    --->Intro
+-> END
+
+=== Kaptain
+= Freak
+>> File.Name: Kaptain_Irving
+    >> Codename: Green_Guardian
+    *Proceed
+    *Return
+    --->Intro
+-> END
+
+=== Veronica
+= Stalker
+>> File.Name: Veronica_Rose
+    >> Codename: Metara
+    *Proceed
+    *Return
+    --->Intro
+-> END
+
+=== Umeko
+= Loner
+>> File.Name: Umeko_Yukimura
+    >> Codename: Sugarplum
+    *Proceed
+    *Return
+    --->Intro
+->END

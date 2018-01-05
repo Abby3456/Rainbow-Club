@@ -15,6 +15,8 @@ public class ButtonCommands : MonoBehaviour {
 	public bool roseIsTrue = false;
 	public bool meiIsTrue = false;
 
+	public GameObject[] buttonObjects;
+
 	public int[] inBetweenCount;
 
 	public Text profileText;
